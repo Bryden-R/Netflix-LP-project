@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+/* fonts imported roboto */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: black;
+}
+
+.banner-wrapper {
+  background: url("https://assets.nflxext.com/ffe/siteui/vlv3/20bf1f4d-1c73-48fd-8689-310d6dd80efc/0b3d0e77-3be2-4104-b1da-11e007b5528e/ZA-en-20240812-POP_SIGNUP_TWO_WEEKS-perspective_WEB_055979d5-8aaf-4914-bb3f-c63ee737d165_large.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* banner-wrapper end */
+.overlay {
+  background-color: rgb(0, 0, 0, 0.5);
+  height: 100vh;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 112px;
+  padding: 24px 48px;
+}
+
+.logo-svg {
+  width: 150px;
+}
+/* nav end */
+
+/* login-container start */
+.login-container {
+  background-color: rgba(0, 0, 0, 0.75);
+  margin: 0 auto;
+  padding: 60px 68px 40px;
+  border-radius: 5px;
+  text-align: center;
+  width: 450px;
+  height: 735px;
+}
+
+.login-container h1 {
+  text-align: left;
+  color: white;
+  margin-bottom: 28px;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.input-group {
+  margin-bottom: 16px;
+}
+
+.input-group input {
+  height: 56px;
+  width: 100%;
+  padding: 5px 20px;
+  border-radius: 4px;
+  border: 1px solid #5f5f5e;
+  font-size: 16px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+.btn-signin {
+  height: 40px;
+  width: 100%;
+  padding: 5px;
+  background-color: #e50914;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.btn-signin:hover {
+  background-color: #8f0910;
+  cursor: pointer;
+}
+
+.btn-signin-code {
+  height: 40px;
+  width: 100%;
+  padding: 5px;
+  background-color: rgba(128, 128, 128, 0.4);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.btn-signin-code:hover {
+  background-color: #68656566;
+  cursor: pointer;
+}
+
+.or-divider {
+  margin: 15px 0;
+  font-size: 16px;
+  color: #b3b3b3;
+}
+
+form a {
+  color: white;
+  text-decoration: none;
+}
+
+form a:hover {
+  text-decoration: underline;
+}
+
+.options {
+  text-align: left;
+}
+
+.remember-me {
+  color: white;
+  display: flex;
+  align-items: center;
+  margin: 15px 0px;
+}
+
+.remember-me input {
+  margin: 10px;
+}
+
+.help-links {
+  font-size: 15px;
+}
+
+.help-links a {
+  color: #b3b3b3;
+  text-decoration: none;
+}
+
+.help-links a strong {
+  font-weight: 700;
+  color: #fff;
+}
+
+p{
+  padding-top: 20px;
+  font-size: 13px;
+  color: #b2b2b2;
+}
+
+p a{
+  color: #0071eb ;
+}
+
+/* footer start */
+.footer {
+  color: #b2b2b2;
+  margin: 300px 160px 10px 160px;
+}
+
+.footer-top p {
+  margin: 0 0 20px 0;
+}
+
+.footer-top a {
+  color: #b2b2b2;
+  text-decoration: none;
+}
+
+.footer-links {
+  columns: 3;
+}
+
+.footer-links ul {
+  margin: -12px 0 14px;
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+.footer-links li {
+  list-style-type: none;
+  margin: 14px 0;
+}
+
+.footer-links li:hover {
+  cursor: pointer;
+}
+
+.copyright {
+  margin: 50px 0 0 0;
+}
+
+.languages {
+  width: 125px;
+  height: 33px;
+  border: 1px solid #c0c0c0;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  margin-top: 25px;
+}
+
+#languages {
+  height: 29px;
+  width: 110px;
+  color: white;
+  background-color: #0f0f0f;
+  border: none;
+  font-size: 14px;
+}
+
+.languages material-symbols-outlined {
+  background-color: #0f0f0f;
+  padding: 14px;
+  color: white;
+}

@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+/* fonts imported roboto */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: black;
+}
+
+.banner-wrapper {
+  background: url("https://assets.nflxext.com/ffe/siteui/vlv3/36a4db5b-dec2-458a-a1c0-662fa60e7473/c1889f73-8a75-428c-818f-4fee204e5f43/ZA-en-20240820-TRIFECTA-perspective_WEB_9083f20f-fc4d-4424-8b92-eae18aa9ce8c_medium.jpg");
+  height: 100vh;
+  border-bottom: 8px solid #232323;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* banner-wrapper end */
+.overlay {
+  background-color: rgb(0, 0, 0, 0.5);
+  height: 100vh;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 112px;
+  padding: 24px 48px;
+}
+
+nav a {
+  color: white;
+  background-color: #e40914;
+  padding: 7px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+nav a:hover {
+  background-color: #d40c16;
+}
+
+.logo-svg {
+  width: 150px;
+}
+/* nav end */
+
+.banner-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  margin-top: 185px;
+}
+
+.banner-text h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.banner-text p {
+  margin: 25px 0;
+  font-size: 25px;
+}
+
+.banner-text h3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 12px 2px;
+}
+/* banner end */
+
+.get-started-section {
+  margin: 10px 0 0 0;
+}
+
+.get-started-section form {
+  width: 580px;
+  display: flex;
+  gap: 9px;
+}
+
+.get-started-section form input {
+  width: 365px;
+  height: 56px;
+  background-color: rgb(0, 0, 0, 0.3);
+  border: 1px solid #5f5e5e;
+  padding: 0 0 0 15px;
+  color: white;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.get-started-section form button {
+  display: flex;
+  align-items: center;
+  width: 213px;
+  height: 56px;
+  justify-content: center;
+  font-size: 24px;
+  color: white;
+  background-color: #e40914;
+  border-radius: 4px;
+  border: none;
+}
+
+.get-started-section form button:hover {
+  background-color: #ca0c15;
+  cursor: pointer;
+}
+
+button .material-symbols-outlined {
+  font-size: 36px;
+}
+/* tv-section */
+.info-container {
+  display: flex;
+  justify-content: center;
+  margin: 0 145px;
+  padding: 15px;
+}
+
+.text-container {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.text h2 {
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+.text p {
+  font-size: 24px;
+}
+
+.tv-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0.8);
+}
+
+.tv-container img {
+  z-index: 1;
+}
+
+.tv-container video {
+  position: absolute;
+  z-index: 0;
+  margin: 0 0 9px 0;
+}
+
+/* had to add a line breaker manually */
+.line-break {
+  border-bottom: 8px solid #232323;
+}
+
+/* footer */
+.footer {
+  color: #b2b2b2;
+  margin: 75px 175px 20px 175px;
+}
+
+.footer-top p {
+  margin: 0 0 50px 0;
+}
+
+.footer-top a {
+  color: #b2b2b2;
+}
+
+.footer-links {
+  columns: 4;
+}
+
+.footer-links ul {
+  margin: -12px 0 14px;
+  text-decoration: underline;
+  font-size: 15px;
+}
+
+.footer-links li {
+  list-style-type: none;
+  margin: 14px 0;
+}
+
+.footer-links li:hover {
+  cursor: pointer;
+}
+
+.copyright {
+  margin: 50px 0 0 0;
+}
+
+.languages {
+  width: 125px;
+  height: 33px;
+  border: 1px solid #c0c0c0;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+#languages {
+  height: 29px;
+  width: 110px;
+  color: white;
+  background-color: black;
+  border: none;
+  font-size: 14px;
+}
+
+.languages material-symbols-outlined {
+  font-size: 14px;
+  padding: 14px;
+  color: white;
+}
